@@ -3,7 +3,7 @@ version: '3'
 services:
 
   jenkins:
-    image: georgespasov/docker-jenkins:latest
+    image: georgespasov/docker-jenkins:latest:from main
     volumes:
        - jenkins_data:/var/jenkins_home
     networks:
